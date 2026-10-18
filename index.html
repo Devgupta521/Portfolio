@@ -1,0 +1,718 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b18">
+
+  <title>G. Devendra | Cybersecurity Portfolio</title>
+
+  <meta name="description"
+    content="G. Devendra's cybersecurity portfolio featuring security projects, hands-on labs, technical skills, internships, and RD CyberForge.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-mark">GD</span>
+      <span>DEVENDRA<span class="accent">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#goals">Goals</a>
+      <a href="#contact" class="nav-contact">Contact Me ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          CYBERSECURITY STUDENT · OPEN TO OPPORTUNITIES
+        </div>
+
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+
+        <h1>G. Devendra<span class="accent">.</span></h1>
+
+        <h2>
+          Exploring the world of
+          <span class="typed-text" id="typed-text">Cybersecurity</span>
+          <span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          I'm a cybersecurity student passionate about ethical hacking,
+          network security, vulnerability assessment, and security operations.
+          I learn by building labs, investigating security issues, and
+          turning knowledge into practical skills.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work ↗
+          </a>
+
+          <a href="resume/Devendra-Resume.pdf"
+             class="btn btn-secondary" download>
+            Download Resume ↓
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/devgupta521"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+          <a href="https://www.linkedin.com/in/devendra-gupta-145490364/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+          <span class="social-divider">/</span>
+          <span class="mono muted">LEARN · BUILD · SECURE</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="profile-frame">
+          <div class="frame-top">
+            <span class="window-dot red"></span>
+            <span class="window-dot yellow"></span>
+            <span class="window-dot green"></span>
+            <span class="frame-label">devendra.profile</span>
+          </div>
+
+          <img src="assets/profile.jpeg"
+               alt="G. Devendra"
+               class="profile-image"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+          <div class="profile-placeholder">
+            <span>GD</span>
+            <p>ADD YOUR PROFILE PHOTO</p>
+          </div>
+
+          <div class="profile-caption">
+            <span class="status-dot"></span>
+            <span>Curiosity is my first tool.</span>
+          </div>
+        </div>
+
+        <div class="floating-card card-top">
+          <span class="accent">01.</span> Ethical Hacking
+        </div>
+
+        <div class="floating-card card-bottom">
+          <span class="accent">02.</span> Security Research
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">// GET TO KNOW ME</p>
+        <h2>Who Am <span class="accent">I?</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="lead">
+            A learner by mindset. A security enthusiast by passion.
+            A builder by action.
+          </p>
+
+          <p>
+            I'm G. Devendra, a B.Tech student specializing in Cybersecurity.
+            My journey is driven by curiosity about how systems work,
+            how vulnerabilities occur, and how digital environments
+            can be made more secure.
+          </p>
+
+          <p>
+            I believe cybersecurity is best learned through hands-on
+            practice. I work with security tools, build virtual labs,
+            perform authorized security assessments, and document
+            my findings to strengthen my technical understanding.
+          </p>
+
+          <p>
+            Beyond learning, I founded RD CyberForge to help beginners
+            explore cybersecurity through training sessions, workshops,
+            CTFs, projects, and community learning.
+          </p>
+
+          <p>
+            My goal is to grow into a skilled cybersecurity professional
+            while contributing to a safer digital world.
+          </p>
+        </div>
+
+        <div class="about-details">
+          <div class="detail-card">
+            <span class="detail-icon">⌘</span>
+            <div>
+              <h3>Education</h3>
+              <p>B.Tech — Cybersecurity</p>
+              <small>Undergraduate Student</small>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <span class="detail-icon">⌕</span>
+            <div>
+              <h3>Primary Interests</h3>
+              <p>Ethical Hacking & Security Operations</p>
+              <small>Learning through practical labs</small>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <span class="detail-icon">⌘</span>
+            <div>
+              <h3>Based In</h3>
+              <p>India</p>
+              <small>Open to learning and collaboration</small>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <span class="detail-icon">↗</span>
+            <div>
+              <h3>Currently Building</h3>
+              <p>RD CyberForge</p>
+              <small>Cybersecurity learning community</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I DO -->
+    <section class="section" id="what-i-do">
+      <div class="section-heading">
+        <p class="eyebrow">// MY FOCUS AREAS</p>
+        <h2>What I <span class="accent">Do</span></h2>
+        <p class="section-description">
+          Areas I'm exploring and developing through hands-on practice.
+        </p>
+      </div>
+
+      <div class="focus-grid">
+        <article class="focus-card">
+          <span class="focus-number">01 /</span>
+          <div class="focus-icon">⌘</div>
+          <h3>Ethical Hacking</h3>
+          <p>
+            Learning reconnaissance, enumeration, vulnerability discovery,
+            and authorized penetration-testing methodologies.
+          </p>
+          <div class="tag-list">
+            <span>Nmap</span><span>Burp Suite</span><span>Kali Linux</span>
+          </div>
+        </article>
+
+        <article class="focus-card">
+          <span class="focus-number">02 /</span>
+          <div class="focus-icon">⌁</div>
+          <h3>Network Security</h3>
+          <p>
+            Exploring network protocols, ports, traffic analysis,
+            network scanning, and common security weaknesses.
+          </p>
+          <div class="tag-list">
+            <span>Wireshark</span><span>TCP/IP</span><span>Nmap</span>
+          </div>
+        </article>
+
+        <article class="focus-card">
+          <span class="focus-number">03 /</span>
+          <div class="focus-icon">⌕</div>
+          <h3>Security Operations</h3>
+          <p>
+            Developing foundational skills in log analysis,
+            security monitoring, alert investigation, and SIEM labs.
+          </p>
+          <div class="tag-list">
+            <span>Wazuh</span><span>Sysmon</span><span>Logs</span>
+          </div>
+        </article>
+
+        <article class="focus-card">
+          <span class="focus-number">04 /</span>
+          <div class="focus-icon">⌘</div>
+          <h3>Web Application Security</h3>
+          <p>
+            Assessing web applications in authorized environments
+            and learning to identify and document security issues.
+          </p>
+          <div class="tag-list">
+            <span>OWASP</span><span>Burp Suite</span><span>SQLMap</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">// MY TOOLKIT</p>
+        <h2>Technical <span class="accent">Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3><span class="accent">01.</span> Security Tools</h3>
+          <div class="skill-tags">
+            <span>Nmap</span>
+            <span>Burp Suite</span>
+            <span>Metasploit</span>
+            <span>Wireshark</span>
+            <span>Nikto</span>
+            <span>SQLMap</span>
+            <span>Wappalyzer</span>
+            <span>Subfinder</span>
+            <span>Shodan</span>
+            <span>Wazuh</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3><span class="accent">02.</span> Security Domains</h3>
+          <div class="skill-tags">
+            <span>Vulnerability Assessment</span>
+            <span>Web Security</span>
+            <span>Network Security</span>
+            <span>Reconnaissance</span>
+            <span>Enumeration</span>
+            <span>SIEM Fundamentals</span>
+            <span>Log Analysis</span>
+            <span>OWASP Top 10</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3><span class="accent">03.</span> Systems & Networking</h3>
+          <div class="skill-tags">
+            <span>Kali Linux</span>
+            <span>Ubuntu</span>
+            <span>Windows</span>
+            <span>Linux CLI</span>
+            <span>TCP/IP</span>
+            <span>DNS</span>
+            <span>HTTP/HTTPS</span>
+            <span>Virtual Machines</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3><span class="accent">04.</span> Working Skills</h3>
+          <div class="skill-tags">
+            <span>Technical Documentation</span>
+            <span>Security Reporting</span>
+            <span>Lab Building</span>
+            <span>Research</span>
+            <span>Team Collaboration</span>
+            <span>ChatGPT</span>
+            <span>Claude</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="small-note">
+        Skills represent tools and areas explored through learning and
+        practical exercises. Proficiency varies by technology.
+      </p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">// MY JOURNEY</p>
+        <h2>Experience & <span class="accent">Learning</span></h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">INTERNSHIP</span>
+            <h3>Cybersecurity + AI Intern</h3>
+            <h4>Woollemia Infosec</h4>
+            <p>
+              Completed a structured internship involving cybersecurity
+              learning, practical security tasks, research, and technical
+              documentation.
+            </p>
+            <div class="tag-list">
+              <span>Security Research</span>
+              <span>Practical Labs</span>
+              <span>Documentation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">INTERNSHIP / TRAINING</span>
+            <h3>Cybersecurity Experience</h3>
+            <h4>Cyber War Lab</h4>
+            <p>
+              Add your exact internship title, dates, responsibilities,
+              tools, and verified achievements here before publishing.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">ONGOING</span>
+            <h3>Hands-on Cybersecurity Learning</h3>
+            <h4>TryHackMe & Personal Labs</h4>
+            <p>
+              Practising in learning environments, exploring security
+              concepts, improving technical skills, and documenting
+              lessons from completed rooms and exercises.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    
+<!-- PROJECTS & LABS -->
+<section class="section projects-section" id="projects">
+
+  <div class="section-heading">
+    <p class="eyebrow">// SELECTED WORK</p>
+    <h2>Projects & <span class="accent">Labs</span></h2>
+    <p class="section-description">
+      Hands-on security assessments, technical exploration, and practical
+      cybersecurity learning in controlled environments.
+    </p>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- PROJECT 01: METASPLOITABLE 2 -->
+    <article class="project-card">
+
+      <div class="project-top">
+        <div class="project-icon">⌘</div>
+        <span class="project-type">NETWORK SECURITY</span>
+      </div>
+
+      <div class="project-number">PROJECT_01</div>
+
+      <h3>Network Security Assessment</h3>
+
+      <p class="project-description">
+        Performed a controlled security assessment of the intentionally
+        vulnerable Metasploitable 2 virtual machine. Explored network
+        discovery, open-port analysis, service enumeration, vulnerability
+        identification, and controlled exploitation to understand
+        potential security risks.
+      </p>
+
+      <div class="project-details">
+        <span>Nmap</span>
+        <span>Metasploit</span>
+        <span>Kali Linux</span>
+        <span>Service Enumeration</span>
+        <span>CVSS</span>
+      </div>
+
+      <div class="project-divider"></div>
+
+      <div class="project-result">
+        <span class="accent result-label">OBJECTIVE //</span>
+        <p>
+          Identify exposed services, analyze security weaknesses,
+          evaluate risk severity, and document appropriate remediation.
+        </p>
+      </div>
+
+      <div class="project-footer">
+        <span class="project-category">
+          <span class="status-dot"></span>
+          Practical Security Lab
+        </span>
+        <span class="project-index">01 / 02</span>
+      </div>
+
+    </article>
+
+    <!-- PROJECT 02: WEB APPLICATION SECURITY -->
+    <article class="project-card">
+
+      <div class="project-top">
+        <div class="project-icon">⌕</div>
+        <span class="project-type">WEB APPLICATION SECURITY</span>
+      </div>
+
+      <div class="project-number">PROJECT_02</div>
+
+      <h3>Web Application Security Assessment</h3>
+
+      <p class="project-description">
+        Assessed a training web application through technology
+        identification, reconnaissance, web security testing, and
+        authentication-related test cases. Investigated potential
+        weaknesses and documented observations for further analysis.
+      </p>
+
+      <div class="project-details">
+        <span>Burp Suite</span>
+        <span>Nikto</span>
+        <span>Wappalyzer</span>
+        <span>OWASP Top 10</span>
+        <span>HTTP</span>
+      </div>
+
+      <div class="project-divider"></div>
+
+      <div class="project-result">
+        <span class="accent result-label">OBJECTIVE //</span>
+        <p>
+          Examine application security, document validated findings,
+          and recommend practical security improvements.
+        </p>
+      </div>
+
+      <div class="project-footer">
+        <span class="project-category">
+          <span class="status-dot"></span>
+          Web Security Assessment
+        </span>
+        <span class="project-index">02 / 02</span>
+      </div>
+
+    </article>
+
+  </div>
+
+  <p class="small-note">
+    All testing should be performed only in authorized environments.
+    Publish reports, screenshots, and technical findings only when you
+    have permission to disclose them.
+  </p>
+
+</section>
+
+    <!-- LEARNING & ACHIEVEMENTS -->
+    <section class="section achievements-section" id="achievements">
+      <div class="section-heading">
+        <p class="eyebrow">// PROGRESS OVER PERFECTION</p>
+        <h2>Learning & <span class="accent">Achievements</span></h2>
+      </div>
+
+      <div class="achievement-grid">
+        <div class="achievement-card">
+          <span class="achievement-symbol">↗</span>
+          <h3>TryHackMe</h3>
+          <p>Completed 30+ rooms and participated in Advent of Cyber 2025.</p>
+        </div>
+
+        <div class="achievement-card">
+          <span class="achievement-symbol">⌘</span>
+          <h3>Practical Labs</h3>
+          <p>Built virtual labs to explore network, web, and monitoring security.</p>
+        </div>
+
+        <div class="achievement-card">
+          <span class="achievement-symbol">◎</span>
+          <h3>Continuous Learning</h3>
+          <p>Strengthening networking, Linux, security tools, and reporting skills.</p>
+        </div>
+      </div>
+    </section>
+
+    
+<!-- LEADERSHIP -->
+<section class="section leadership-section" id="leadership">
+  <div class="section-heading">
+    <p class="eyebrow">// BUILDING TOGETHER</p>
+    <h2>Beyond the <span class="accent">Terminal</span></h2>
+  </div>
+
+  <div class="leadership-card">
+
+    <!-- RD CyberForge Logo -->
+    <div class="leadership-logo">
+      <img
+        src="assets/logo.jpeg"
+        alt="RD CyberForge Logo"
+        class="rdcyberforge-logo"
+      >
+    </div>
+
+    <div class="leadership-content">
+      <span class="project-type">FOUNDER & COMMUNITY BUILDER</span>
+      <h3>RD CyberForge</h3>
+
+      <p class="lead">Learn. Explore. Secure.</p>
+
+      <p>
+        I founded RD CyberForge to make cybersecurity learning
+        approachable for students and beginners. Our initiative focuses
+        on training programs, hands-on workshops, CTFs, projects,
+        and collaborative learning opportunities.
+      </p>
+
+      <p>
+        My responsibilities include developing learning content,
+        coordinating sessions, supporting community activities,
+        and helping build a welcoming environment for aspiring
+        cybersecurity professionals.
+      </p>
+
+      <a
+        href="https://devgupta521.github.io/RDCyberforge-1/"
+        class="text-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Explore RD CyberForge ↗
+      </a>
+    </div>
+
+  </div>
+</section>
+
+    <!-- CAREER GOALS -->
+    <section class="section goals-section" id="goals">
+      <div class="section-heading">
+        <p class="eyebrow">// WHERE I'M HEADED</p>
+        <h2>My Career <span class="accent">Goals</span></h2>
+      </div>
+
+      <div class="goals-grid">
+        <div class="goal-item">
+          <span>01</span>
+          <div>
+            <h3>Security Operations</h3>
+            <p>Build practical SOC skills in monitoring, alert triage, and investigation.</p>
+          </div>
+        </div>
+
+        <div class="goal-item">
+          <span>02</span>
+          <div>
+            <h3>Offensive Security</h3>
+            <p>Improve authorized penetration-testing and vulnerability assessment skills.</p>
+          </div>
+        </div>
+
+        <div class="goal-item">
+          <span>03</span>
+          <div>
+            <h3>Digital Investigations</h3>
+            <p>Explore incident investigation, digital evidence, and cybercrime analysis.</p>
+          </div>
+        </div>
+
+        <div class="goal-item">
+          <span>04</span>
+          <div>
+            <h3>Community Impact</h3>
+            <p>Help more students discover cybersecurity through RD CyberForge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-content">
+        <p class="eyebrow">// LET'S CONNECT</p>
+        <h2>Have an opportunity<br>or an idea? <span class="accent">Let's talk.</span></h2>
+
+        <p>
+          I'm interested in cybersecurity internships, entry-level
+          opportunities, learning collaborations, and meaningful projects.
+          Feel free to connect with me.
+        </p>
+
+        <div class="contact-buttons">
+          <a href="https://www.linkedin.com/in/devendra-gupta-145490364/"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-primary">
+            Connect on LinkedIn ↗
+          </a>
+
+          <a href="https://github.com/devgupta521"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-secondary">
+            View GitHub ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-terminal">
+        <div class="terminal-header">
+          <span class="window-dot red"></span>
+          <span class="window-dot yellow"></span>
+          <span class="window-dot green"></span>
+          <span>contact.sh</span>
+        </div>
+
+        <div class="terminal-body">
+          <p><span class="terminal-green">devendra@portfolio</span>:~$ whoami</p>
+          <p class="terminal-output">Cybersecurity Student &amp; Learner</p>
+
+          <p><span class="terminal-green">devendra@portfolio</span>:~$ mission</p>
+          <p class="terminal-output">Learn. Build. Investigate. Secure.</p>
+
+          <p><span class="terminal-green">devendra@portfolio</span>:~$ status</p>
+          <p class="terminal-output">Always learning <span class="accent">_</span></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="logo">
+      <span class="logo-mark">GD</span>
+      <span>DEVENDRA<span class="accent">.</span></span>
+    </a>
+
+    <p>Designed with curiosity. Built for a safer digital world.</p>
+
+    <p class="footer-copy">
+      © <span id="year"></span> G. Devendra. All rights reserved.
+    </p>
+
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+</body>
+</html>
